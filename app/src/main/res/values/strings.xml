@@ -1,3 +1,10 @@
 <resources>
-    <string name="app_name">M3DAS v2</string>
+    <string name="app_name">M3DAS</string>
+    <string name="profile">Profile</string>
+    <string name="planting">Planting</string>
+    <string name="hauling_others"><![CDATA[Hauling & Others]]></string>
+    <string name="harvesting">Harvesting</string>
+    <string name="land_clearing_prep"><![CDATA[Land Clearing & Prep]]></string>
+    <string name="fertilization_irrigation"><![CDATA[Fertilization & Irrigation]]></string>
+    <string name="cultivation_ratooning"><![CDATA[Cultivation & Ratooning]]></string>
 </resources>
