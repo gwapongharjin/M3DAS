@@ -17,10 +17,16 @@
         >
 
         <com.google.android.material.tabs.TabItem
-            android:id="@+id/tabPrelim"
+            android:id="@+id/tabProfile"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="@string/profile" />
+
+        <com.google.android.material.tabs.TabItem
+            android:id="@+id/tabMach"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/machines_owned" />
 
         <com.google.android.material.tabs.TabItem
             android:id="@+id/tabLand"
@@ -35,16 +41,28 @@
             android:text="@string/planting" />
 
         <com.google.android.material.tabs.TabItem
-            android:id="@+id/tabFertIrri"
+            android:id="@+id/tabFert"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="@string/fertilization_irrigation" />
+            android:text="@string/fertilization" />
 
         <com.google.android.material.tabs.TabItem
-            android:id="@+id/tabCultRat"
+            android:id="@+id/tabIrri"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="@string/cultivation_ratooning" />
+            android:text="@string/irrigation" />
+
+        <com.google.android.material.tabs.TabItem
+            android:id="@+id/tabCult"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/cultivation" />
+
+        <com.google.android.material.tabs.TabItem
+            android:id="@+id/tabRat"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/ratooning" />
 
         <com.google.android.material.tabs.TabItem
             android:id="@+id/tabHarvest"
@@ -58,6 +76,15 @@
             android:layout_height="wrap_content"
             android:text="@string/hauling_others" />
     </com.google.android.material.tabs.TabLayout>
+
+    <androidx.viewpager.widget.ViewPager
+        android:id="@+id/viewpager"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tablPart1" />
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>
